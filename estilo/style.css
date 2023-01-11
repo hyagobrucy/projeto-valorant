@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'valorant-font';
+    src: url(../fonte/valorant-font.ttf) format('truetype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --fonte01: 'valorant-font', cursive;
+    --fonte02: 
+}
