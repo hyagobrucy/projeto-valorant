@@ -21,30 +21,24 @@
     --fonte02: 'valorant02-font', cursive;
 
     --color01: #a7334c;
-    --color02: #0f131c;
+    --color02: #070A0D;
     --color03: #ce2a4e;
     --color04: #0D1720;
 }
 
 header{
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent), url(../imagens/valorant01.jpg);
-    background-attachment: initial;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent), url(../imagens/valorant02.jpg);
     background-size: cover;
     background-position: center;
-
-    width: auto;
     height: 800px;
 }
 
 header h1{
     font-family: var(--fonte01);
+    font-size: 13vh;
     text-align: center;
     color: var(--color03);
-
-    font-size: 13vh;
-
     text-shadow: 3px 1px 5px #0D1720;
-
     padding-bottom: 450px;    
 }
 
@@ -54,11 +48,9 @@ header p{
     text-align: center;
     margin: auto;
     padding: 5px;
-
     color: var(--color03);
     background-image: linear-gradient(to top, #0D1720, #0d172054);
     border-bottom: 1px solid var(--color03);
-
     width: 200px;
     height: 30px;
 }
@@ -66,21 +58,23 @@ header p{
 header .menu{
     font-family: var(--fonte01);
     text-align: right;
-
     padding: 10px;
 }
 
 header .menu a{
     background-color: var(--color03);
-    border: 3px solid black;
-    box-shadow: 2px 2px 6px 0px #000000ba;
-    color: black;
-
+    border: 3px solid #070a0d;
+    box-shadow: 2px 2px 6px 0px #070a0dbb;
+    color: #070A0D;
+    padding: 5px;
+    margin: 5px;
     text-decoration: none;
+    transition: 0.4s linear;
 }
 
 header .menu a:hover{
     text-decoration: underline;
+    background-color: #e67282;
 }
 
 main{
