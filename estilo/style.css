@@ -1,8 +1,13 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'valorant-font';
+    font-family: 'valorant01-font';
     src: url(../fonte/valorant-font.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'valorant02-font';
+    src: url(../fonte/valorant02-font-bold.ttf) format('truetype');
 }
 
 *{
@@ -11,6 +16,6 @@
 }
 
 :root{
-    --fonte01: 'valorant-font', cursive;
-    --fonte02: 
+    --fonte01: 'valorant01-font', cursive;
+    --fonte02: 'valorant02-font', cursive;
 }
