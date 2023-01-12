@@ -10,6 +10,11 @@
     src: url(../fonte/valorant02-font-bold.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'redhat';
+    src: url(../fonte/redhat-regular.ttf) format('truetype');
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -19,6 +24,8 @@
 :root{
     --fonte01: 'valorant01-font', cursive;
     --fonte02: 'valorant02-font', cursive;
+    --fonte03: 'redhat', sans-serif;
+
 
     --color01: #a7334c;
     --color02: #070A0D;
@@ -78,9 +85,11 @@ header .menu a:hover{
 }
 
 main{
+    font-family: var(--fonte03);
     background-color: black;
 }
 
 footer{
+    font-family: var(--fonte03);
     background-color: black;
 }
