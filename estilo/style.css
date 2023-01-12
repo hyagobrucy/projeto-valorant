@@ -13,9 +13,80 @@
 *{
     margin: 0px;
     padding: 0px;
+    color: white;
 }
 
 :root{
     --fonte01: 'valorant01-font', cursive;
     --fonte02: 'valorant02-font', cursive;
+
+    --color01: #a7334c;
+    --color02: #0f131c;
+    --color03: #ce2a4e;
+    --color04: #0D1720;
+}
+
+header{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), transparent), url(../imagens/valorant01.jpg);
+    background-attachment: initial;
+    background-size: cover;
+    background-position: center;
+
+    width: auto;
+    height: 800px;
+}
+
+header h1{
+    font-family: var(--fonte01);
+    text-align: center;
+    color: var(--color03);
+
+    font-size: 13vh;
+
+    text-shadow: 3px 1px 5px #0D1720;
+
+    padding-bottom: 450px;    
+}
+
+header p{
+    font-family: var(--fonte02);
+    font-size: 4vh;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+
+    color: var(--color03);
+    background-image: linear-gradient(to top, #0D1720, #0d172054);
+    border-bottom: 1px solid var(--color03);
+
+    width: 200px;
+    height: 30px;
+}
+
+header .menu{
+    font-family: var(--fonte01);
+    text-align: right;
+
+    padding: 10px;
+}
+
+header .menu a{
+    background-color: var(--color03);
+    border: 3px solid black;
+    box-shadow: 2px 2px 6px 0px #000000ba;
+    color: black;
+
+    text-decoration: none;
+}
+
+header .menu a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: black;
+}
+
+footer{
+    background-color: black;
 }
