@@ -89,7 +89,40 @@ main{
     background-color: black;
 }
 
+main #historia{
+    background-color: #a7334c;
+    width: 700px;
+    margin: auto;
+}
+
+main #historia h2{
+    background-color: #0D1720;
+    text-align: center;
+    padding: 15px;
+}
+
+main #historia p{
+    text-align: justify;
+    text-indent: 20px;
+    padding: 10px;
+    line-height: 1.5em;
+}
+
+main #agentes{
+    background-color: #a7334c;
+    width: 700px;
+    margin: auto;
+}
+
+main #agentes h2{
+    background-color: #0D1720;
+    text-align: center;
+    padding: 15px;
+}
+
 footer{
     font-family: var(--fonte03);
-    background-color: black;
+    background-color: #e67282;
+    text-align: center;
+
 }
