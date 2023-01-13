@@ -18,7 +18,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    color: white;
 }
 
 :root{
@@ -89,16 +88,30 @@ main{
     background-color: black;
 }
 
+main #titulohistoria{
+    background-color: #0D1720;
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+    border-radius: 10px 10px 0px 0px;
+    width: 700px;
+    margin: auto;
+}
+
 main #historia{
     background-color: #a7334c;
     width: 700px;
     margin: auto;
+    margin-bottom: 80px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 main #historia h2{
     background-color: #0D1720;
     text-align: center;
     padding: 15px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
 }
 
 main #historia p{
@@ -106,22 +119,42 @@ main #historia p{
     text-indent: 20px;
     padding: 10px;
     line-height: 1.5em;
+    color: white;
+}
+
+main #tituloagentes{
+    background-color: #0D1720;
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+    border-radius: 10px 10px 0px 0px;
+    width: 700px;
+    margin: auto;
 }
 
 main #agentes{
     background-color: #a7334c;
     width: 700px;
     margin: auto;
+    margin-bottom: 50px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 main #agentes h2{
     background-color: #0D1720;
     text-align: center;
     padding: 15px;
+    color: white;
+}
+
+main #agentes p{
+    color: white;
+    padding: 10px;
 }
 
 footer{
     font-family: var(--fonte03);
-    background-color: #e67282;
+    background-color: white;
+    color: black;
     text-align: center;
 }
