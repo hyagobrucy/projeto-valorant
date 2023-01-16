@@ -96,6 +96,8 @@ main #titulohistoria{
     border-radius: 10px 10px 0px 0px;
     width: 700px;
     margin: auto;
+
+    margin-top: 50px;
 }
 
 main #historia{
@@ -136,8 +138,9 @@ main #agentes{
     background-color: #a7334c;
     width: 700px;
     margin: auto;
-    margin-bottom: 50px;
     border-radius: 0px 0px 10px 10px;
+
+    margin-bottom: 50px;
 }
 
 main #agentes h2{
@@ -154,7 +157,21 @@ main #agentes p{
 
 footer{
     font-family: var(--fonte03);
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     text-align: center;
+}
+
+footer p{
+       font-family: var(--fonte03); 
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
