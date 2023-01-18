@@ -37,6 +37,7 @@ header{
     background-size: cover;
     background-position: center;
     height: 800px;
+    padding-bottom: 100px;
 }
 
 header h1{
@@ -96,15 +97,14 @@ main #titulohistoria{
     border-radius: 10px 10px 0px 0px;
     width: 700px;
     margin: auto;
-
-    margin-top: 50px;
 }
 
 main #historia{
     background-color: #a7334c;
     width: 700px;
+    height: 450px;
     margin: auto;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     border-radius: 0px 0px 10px 10px;
 }
 
@@ -137,10 +137,9 @@ main #tituloagentes{
 main #agentes{
     background-color: #a7334c;
     width: 700px;
+    height: 450px;
     margin: auto;
     border-radius: 0px 0px 10px 10px;
-
-    margin-bottom: 50px;
 }
 
 main #agentes h2{
@@ -151,8 +150,56 @@ main #agentes h2{
 }
 
 main #agentes p{
-    color: white;
+    color: #0D1720;
     padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: var(--fonte03);
+}
+
+main .imgagentes{
+    height: 450px;
+    width: 700px;
+    overflow: auto;
+    text-align: center;
+    align-content: center;
+}
+
+main .imgagentes a{
+    text-decoration: none;
+}
+
+main .a01, .a02, .a03, .a04{
+    float: left;
+}
+
+main .a03{
+    clear: left;
+}
+
+main .agente{
+    margin: 10px;
+    transition: .6s ease-in;
+}
+
+main .a01{
+    background-color: #E1B576;
+}
+
+main .a02{
+    background-color: #59EA5D;
+}
+
+main .a03{
+    background-color: #59FFDB;
+}
+
+main .a04{
+    background-color: #F147B1;
+}
+
+main .agente:hover{
+    background-color: white;
 }
 
 footer{
@@ -160,15 +207,17 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
+    padding-top: 100px;
 }
 
 footer p{
-       font-family: var(--fonte03); 
+    font-family: var(--fonte03); 
+    background-color: black;
 }
 
 footer a{
     text-decoration: none;
-    color: white;
+    color: #a7334c;
     font-weight: bold;
 }
 
