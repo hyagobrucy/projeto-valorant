@@ -140,6 +140,11 @@ main #agentes{
     height: 450px;
     margin: auto;
     border-radius: 0px 0px 10px 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 main #agentes h2{
@@ -157,12 +162,13 @@ main #agentes p{
     font-family: var(--fonte03);
 }
 
-main .imgagentes{
-    height: 450px;
-    width: 700px;
-    overflow: auto;
-    text-align: center;
-    align-content: center;
+main .imgagentes {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
 }
 
 main .imgagentes a{
@@ -180,6 +186,10 @@ main .a03{
 main .agente{
     margin: 10px;
     transition: .6s ease-in;
+    flex-basis: calc(50% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 main .a01{
@@ -200,6 +210,11 @@ main .a04{
 
 main .agente:hover{
     background-color: white;
+}
+
+main .agente p {
+    margin-top: 10px; /* Adicione um espaçamento superior */
+    text-align: center; /* Centralize o texto */
 }
 
 footer{
